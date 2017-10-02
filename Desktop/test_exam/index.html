@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Progress Bar </title>
+        <link rel="stylesheet" type="text/css" href="style.css" >
+    </head>
+<body>
+<div class="wrapper">
+    <div>
+        <select id="barSelector">
+        <option value=""> Select Bar </option>
+        <option value="progressbar1">Progress Bar 1 </option>
+        <option value="progressbar2">Progress Bar 2</option>
+        <option value="progressbar3">Progress Bar 3</option>
+    </select>
+    </div>
+    <div id="buttonWrapper">
+        <button value="10">10</button>
+        <button value="20">20</button>
+        <button value="-10">-10</button>
+    </div>
+    
+    <div id="progressbar1" data-weight="0" class="progressbar">
+        <div id="progress1" class="progress"></div>
+    </div>
+    <div id="progressbar2" data-weight="0" class="progressbar">
+        <div id="progress2" class="progress"></div>
+    </div>
+    <div id="progressbar3" data-weight="0" class="progressbar">
+        <div id="progress3" class="progress"></div>
+    </div>
+    
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
